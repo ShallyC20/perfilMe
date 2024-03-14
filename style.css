@@ -1,16 +1,19 @@
 body{
   background-color:var(--OffBlack);
 }
+
 .container {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  display: flex;
+  display: grid; /* ERA flex Cambiado a  grid */
+  gap: 20px; /* Espacio entre las tarjetas */
   justify-content: center;
 }
+
 .Perfil {
-  width: 250px;
+  width: 210px;
   height:fit-content;
   justify-content: center;
   padding: 30px;
@@ -19,7 +22,10 @@ body{
   flex-direction: column;
   align-items: center;
   border-radius: 5%;
+
+  margin: 0 10px;
 }
+
 .Imagen {
   display: flex;
   padding: 10px;
@@ -32,7 +38,7 @@ body{
 .profile-pic {
   width: 10%;
   height: 10%;
-  object-fit: cover; 
+  object-fit: cover;
 }
 :root{
   --White: hsl(0, 0%, 100%);
@@ -41,7 +47,7 @@ body{
   --OffBlack: hsl(0, 0%, 8%);
   --Green: hsl(75, 94%, 57%);
 }
-.Name{
+.Names{
   height: 30px;
   font-size: 14px;
   font-family:"inter", sans-serif;
