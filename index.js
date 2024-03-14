@@ -6,7 +6,7 @@ function Present() {
   Image.className = "Imagen";
 
   const ImaPer = document.createElement("img");
-  ImaPer.src = "./assets/images/avatar-jessica.jpeg";
+  ImaPer.src = "./social-links-profile/assets/images/avatar-jessica.jpeg";
   Image.appendChild(ImaPer);
 
   const Nomb = document.createElement("div");
