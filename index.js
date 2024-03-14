@@ -75,7 +75,7 @@ function Present() {
 
   return Perfi;
 }
-const contenedorPrin = document.querySelector("#contenedor");
+const contenedorPrin = document.querySelector(".container");
 const botonNod = document.querySelector("#Crear");
 
 function agregarPer() {
